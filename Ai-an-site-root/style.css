@@ -1,0 +1,37 @@
+/* Viết gộp: margin/padding theo thứ tự: Trên - Phải - Dưới - Trái */
+body { margin: 0; padding: 20px; font-family: serif; }
+
+/* Menu ngang dùng Flexbox - cách ngắn nhất hiện nay */
+/* Nền trang web */
+body {
+    background-color: #FCF8F3; /* Màu nền màu Kem */
+    color: #555555; /* Xám đậm dễ đọc */
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Menu điều hướng */
+nav a {
+    text-decoration: none;
+    color: #8fb996; /* Xanh lá dịu tạo cảm giác thư thái giữa thiên nhiên */
+    font-weight: bold;
+    transition: 0.3s; /* Hiệu ứng đổi màu mượt mà */
+}
+
+/* Khi di chuột qua menu */
+nav a:hover {
+    color: #415d43; /* Màu xanh rừng sâu dùng cho tiêu đề, tạo sự vững chãi */
+    text-decoration: underline;
+}
+
+/* Đường kẻ ngang trang nhã */
+hr {
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px 0;
+}
+
+h1 span {
+    display: block;
+}

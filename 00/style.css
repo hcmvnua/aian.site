@@ -1,17 +1,25 @@
-/* Viết gộp: margin/padding theo thứ tự: Trên - Phải - Dưới - Trái */
-body { margin: 0; padding: 20px; font-family: serif; }
-
-/* Menu ngang dùng Flexbox - cách ngắn nhất hiện nay */
-/* Nền trang web */
+/* Nền, chữ, căn lề, viết gộp: margin/padding theo thứ tự: Trên - Phải - Dưới - Trái */
 body {
     background-color: #FCF8F3; /* Màu nền màu Kem */
-    color: #555555; /* Xám đậm dễ đọc */
+    color: #70660d;
     margin: 0;
     padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Itim, cursive,'Patrick Hand'; /* từ Google Font, tạm tắt 'Segoe UI', sans-serif*/
+    font-size: 1rem; /* Tương đương 16px, tự động thích ứng */
+    line-height: 1.6; /* Giãn dòng cho thoáng */
+}
+header, nav ul {
+    display: flex;
+    justify-content: center; /* Căn giữa tất cả các mục */
+    gap: 20px;               /* Khoảng cách đều giữa các mục */
+}
+.logo-slogan-1, .logo-slogan-2, nav li {
+    display: inline-block;
+    margin-right: 15px; /* Khoảng cách giữa các mục cho 'An Lành' */
+    vertical-align: top; /* Giúp các mục thẳng hàng nếu độ cao khác nhau */
 }
 
-/* Menu điều hướng */
+/* Menu ngang điều hướng dùng Flexbox - cách ngắn nhất hiện nay */
 nav a {
     text-decoration: none;
     color: #8fb996; /* Xanh lá dịu tạo cảm giác thư thái giữa thiên nhiên */

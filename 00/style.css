@@ -1,11 +1,11 @@
 /* Nền, chữ, căn lề, viết gộp: margin/padding theo thứ tự: Trên - Phải - Dưới - Trái */
 body {
     background-color: #FCF8F3; /* Màu nền màu Kem */
-    color: #70660d;
+    color: #685606;
     margin: 0;
     padding: 20px;
-    font-family: Itim, cursive,'Patrick Hand'; /* từ Google Font, tạm tắt 'Segoe UI', sans-serif*/
-    font-size: 1rem; /* Tương đương 16px, tự động thích ứng */
+    font-family: 'Patrick Hand','Itim', 'cursive'; /* từ Google Font, tạm tắt 'Segoe UI', sans-serif*/
+    font-size: 1.2rem; /* 1 rem tương đương 16px, tự động thích ứng */
     line-height: 1.6; /* Giãn dòng cho thoáng */
 }
 header, nav ul {
@@ -18,7 +18,9 @@ header, nav ul {
     margin-right: 15px; /* Khoảng cách giữa các mục cho 'An Lành' */
     vertical-align: top; /* Giúp các mục thẳng hàng nếu độ cao khác nhau */
 }
-
+.slogan-1, .slogan-2 {
+    display: inline-block;
+}
 /* Menu ngang điều hướng dùng Flexbox - cách ngắn nhất hiện nay */
 nav a {
     text-decoration: none;

@@ -1,0 +1,23 @@
+     <header>
+        <!-- Logo và Slogan -->
+        <div class='logo-slogan-1'>
+            <a href=''><img src='' alt='logo and slogan of An Ai'></a>
+            <span class='slogan-1'>An Ai Office | Communicate with An Ai serenely here</span>
+        </div>
+        
+        <div class='logo-slogan-2'>
+            <a href=''><img src='' alt='logo and slogan of Serene'></a>
+            <span class='slogan-2'>Is serenity expensive in nowadays world?</span>
+        </div>
+
+        <!-- Banners, Sliders (Code sẽ được thêm sau) -->
+        <div> code cho Banners, Sliders </div>
+
+        <!-- Link đến các phiên bản ngôn ngữ -->
+        <div class='select-lang'>
+            <span>Select language: 
+                <a href='index.html'>English</a> | 
+                <a href='../vi/index.html'>Vietnamese</a> | 
+                <a href='../ja/index.html'>Japanese</a>
+            </span>
+        </div>

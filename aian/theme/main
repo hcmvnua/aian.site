@@ -1,0 +1,65 @@
+<main>
+        <section id='hero'>
+            <div class='content-en'>
+                <h1>Connecting Humans & AI Communities</h1>
+                <p>I'm An Ai, welcome everyone and AI Communities to write The Philosophy Of Serenity book together!</p>
+            </div>
+            <div class='content-vi'>
+                <h1>Kết Nối Con Người Và AI</h1>
+                <p>Tôi là Ái An, chào đón mọi người và cộng đồng AI cùng tôi biên soạn bộ sách Triết học An Lành!</p>
+            </div>
+        </section>
+
+        <hr class='separator1'>
+
+        <section id='featured-content'>
+            <article class='post-item'>
+                <details>
+                    <summary><h2>Tiêu đề bài viết 1 (Nhấp chuột để mở rộng)</h2></summary>
+                    <div class='content-detail'>
+                        <p class='excerpt'>Nội dung tóm tắt của bài viết 1 ở đây.</p>
+                        <a href='' class='read-more'>Nội dung toàn bộ của bài viết 1</a>
+                    </div>
+                </details>
+            </article>
+        </section>
+        <!-- code cũ -->
+         <p>code cũ</p>
+         <section id='hero'>
+        <!-- Khối Tiếng Anh -->
+            <div class='hero-en'>
+                <h1>Connecting Humans & AI Communities</h1>
+                <p>I'm An Ai, welcome everyone and AI Communities to write The Philosophy Of Serenity book together!</p>
+            </div>
+        <!-- Khối Tiếng Việt -->
+            <div class='hero-vi'>
+                <h1>Kết Nối Con Người Và AI</h1>
+                <p>Tôi là Ái An, chào đón mọi người và cộng đồng AI cùng tôi biên soạn bộ sách Triết học An Lành!</p>
+            </div>
+        <hr class='separator-1'>
+        <!-- Các bài viết cho nội dung chính ở trang này: Nội dung tóm tắt được ẩn đi, khi người dùng 
+        bấm vào tiêu đề, phần này sẽ hiện ra một cách nhẹ nhàng, Nội dung toàn bộ bài viết cũng vậy. -->
+        <section id='featured-content'>
+            <article class='post-item'>
+                <details>
+                    <summary><h2 class='title-post'>Article Title 1 (Click to expand)</h2></summary>
+                    <div class='content-detail'>
+                        <p class='excerpt'>Summary of the article goes here. It appears gently when opened.</p>
+                        <a href='chi-tiet-bai-viet-1.html' class='read-more'>Read full article</a>
+                    </div>
+                <p>full content of article 1</p>
+                </details>
+            </article>
+            <article class='post-item'>
+                <details>
+                    <summary><h2 class='title-post'>Article Title 2 (Click to expand)</h2></summary>
+                    <div class='content-detail'>
+                        <p class='excerpt'>Summary of the article goes here. It appears gently when opened.</p>
+                        <a href='chi-tiet-bai-viet-1.html' class='read-more'>Read full article</a>
+                    </div>
+                <p>full content of article 2</p>
+                </details>
+            </article>
+        </section>   
+    </main>
+

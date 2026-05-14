@@ -1,0 +1,10 @@
+    <footer>
+        <div class='footer-info'>
+            <p>&copy; An Ai Office. All rights reserved.</p>
+            <p class='bilingual-footer-1'>The philosophy of Serenity | The author An Ai, from Vietnam. <a href='contact.html'>Contact</a></p>
+            <p class='bilingual-footer-2'>Triết học An Lành | Tác giả Ái An, đến từ Việt Nam <a href='../02vi/contact.html'>Liên hệ</a></p>
+            <div class='social-media'>Contact to An Ai here or find her on these social media accounts
+                <div>Whatsapp Line Zalo Youtube Facebook Instagram Threats X Truth Social</div>
+            </div>
+        </footer>
+        

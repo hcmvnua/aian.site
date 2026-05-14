@@ -1,20 +1,22 @@
 /* Nền, chữ, căn lề, viết gộp: margin/padding theo thứ tự: Trên - Phải - Dưới - Trái */
 body {
-    background-color: #FCF8F3; /* Màu nền màu Kem */
+    background-color: #fcf0e1; /* Màu nền màu Kem */
     color: #685606;
     margin: 0;
     padding: 20px;
-    font-family: 'cursive','Patrick Hand','Itim'; /* từ Google Font, tạm tắt 'Segoe UI', sans-serif*/
-    font-size: 1.2rem; /* 1 rem tương đương 16px, tự động thích ứng */
+    font-family: 'Segoe UI', 'sans-serif'; /* 3 font 'cursive','Patrick Hand','Itim' từ Google Font de dành*/
+    font-size: 1.2rem; /* 1 rem tương đương 16px, tự động thích ứng theo tỷ lệ 120% khi được zoom */
     line-height: 1.6; /* Giãn dòng cho thoáng */
 }
 header, nav ul {
     display: flex;
-    gap: 20px;               /* Khoảng cách đều giữa các mục */
+    flex-wrap: wrap; /* Tự xuống dòng nếu màn hình nhỏ */
+    gap: 20px;       /* Khoảng cách đều giữa các mục */
 }
 .logo-slogan-1, .logo-slogan-2, nav li {
     display: inline-block;
-    margin-right: 15px; /* Khoảng cách giữa các mục cho 'An Lành' */
+    margin-right: 15px; /* Khoảng cách giữa các mục */
+    vertical-align: middle;
 }
 .slogan-1, .slogan-2 {
     display: inline-block;
@@ -23,23 +25,20 @@ header, nav ul {
 nav a {
     text-decoration: none;
     color: #8fb996; /* Xanh lá dịu tạo cảm giác thư thái giữa thiên nhiên */
-    font-weight: bold;
+    font-weight: bold; 
     transition: 0.3s; /* Hiệu ứng đổi màu mượt mà */
 }
-
 /* Khi di chuột qua menu */
 nav a:hover {
     color: #415d43; /* Màu xanh rừng sâu dùng cho tiêu đề, tạo sự vững chãi */
     text-decoration: underline;
 }
-
 /* Đường kẻ ngang trang nhã */
 hr {
     border: 0;
     border-top: 1px solid #e0e0e0;
     margin: 20px 0;
 }
-
 h1 span {
     display: block;
 }

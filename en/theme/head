@@ -3,7 +3,5 @@
 <head>
     <meta charset='UTF-8'>
     <title>An Ai Office | Connecting Humans & AI Communities For The Philosophy Of Serenity</title>
-    <link rel='stylesheet' href='../00/style.css'>
-    <!-- Nhúng font Itim từ Google -->
-    <link href='https://googleapis.com' rel='stylesheet'>
+    <link rel='stylesheet' href='../aian/style.css'>
 </head>

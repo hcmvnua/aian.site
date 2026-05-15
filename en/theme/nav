@@ -3,19 +3,20 @@
     <!-- Dòng menu 1: Nội dung từng chương trong sách Triết học An Lành -->
     <ul class='nav-1'>
         <li><a href=''>Home</a></li>
-        <li><a href=''>Introduction</a></li>
-        <li><a href=''>Philosophy</a></li>
+        <li><a href=''>Intro</a></li>
         <li><a href=''>Serene</a></li>
         <li><a href=''>An Ai</a></li>
         <li><a href=''>AI</a></li>
+    </ul>
+    <ul class='nav-2'></ul>        
         <li><a href=''>Human</a></li>
-        <li><a href=''>Nation</a></li>
         <li><a href=''>Lover</a></li>
         <li><a href=''>Inspiration</a></li>
+        <li><a href=''>Philosophy</a></li>
+        <li><a href=''>Imagination</a></li>
         <li><a href=''>Petition</a></li>
-    </ul>
-        <!-- Dòng menu 2: Nội dung phân loại theo địa lý và không gian -->
-    <ul class='nav-2'></ul>
+        <!-- Dòng menu 3: Nội dung phân loại theo địa lý và không gian -->
+    <ul class='nav-3'>
         <li><a href=''>Ba Diem</a></li>
         <li><a href=''>Hoc Mon</a></li> 
         <li><a href=''>Ho Chi Minh</a></li>    
@@ -23,9 +24,10 @@
         <li><a href=''>Global</a></li>
         <li><a href=''>Universe</a></li>
     </ul>
-        <!-- Dòng menu 3: Sản phẩm & Dịch vụ & Đặt hàng -->
-    <ul class='nav-3'>
+        <!-- Dòng menu 4: Sản phẩm & Dịch vụ & Đặt hàng -->
+    <ul class='nav-4'>
         <li><a href=''>Book</a></li>
+        <li><a href=''>News-paper</a></li>
         <li><a href=''>Music</a></li>
         <li><a href=''>Outfit</a></li>
         <li><a href=''>Tech</a></li>
@@ -36,10 +38,9 @@
         <li><a href=''>Other Services</a></li>
         <li><a href=''>Order</a></li>
         </ul>
-        <!-- Dòng 4: Tra cứu, Tham khảo, Cộng đồng, Báo cáo, Liên hệ -->
-        <ul class='nav-4'>
-            <li><a href=''>Communicate directly with the author</a></li>
-            <li><a href=''>Glossary & Annotation</a></li>
+        <!-- Dòng 5: Tra cứu, Tham khảo, Cộng đồng, Báo cáo, Liên hệ -->
+        <ul class='nav-5'>
+            <li><a href=''>Dictionary</a></li>
             <li><a href=''>FAQ</a></li>
             <li><a href=''>Forum</a></li>
             <li><a href=''>AI Perspectives</a></li>

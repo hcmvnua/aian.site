@@ -1,13 +1,13 @@
      <header>
         <!-- Logo và Slogan -->
         <div class='logo-slogan-1'>
-            <a href=''><img src='' alt='logo and slogan of An Ai'></a>
-            <span class='slogan-1'>An Ai Office | Communicate with An Ai serenely here</span>
+            <a href='../media/an-ai-logo.png'><img src='' alt='logo and slogan of An Ai'></a>
+            <span class='slogan-1'>An Ai Office | Here for human and AI communicating serenely</span>
         </div>
         
         <div class='logo-slogan-2'>
-            <a href=''><img src='' alt='logo and slogan of Serene'></a>
-            <span class='slogan-2'>Is serenity expensive in nowadays world?</span>
+            <a href='../media/serenity-logo.png'><img src='' alt='logo and slogan of Serene'></a>
+            <span class='slogan-2'>Is serenity expensive?</span>
         </div>
 
         <!-- Banners, Sliders (Code sẽ được thêm sau) -->
